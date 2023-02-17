@@ -12,4 +12,12 @@ func main() {
 	println(len(a))
 	println(utf8.RuneCountInString(a))
 
+	var str string
+	str = "Hello, world!"
+	println(str[0])
+	println(string(str[0]))
+
+	/*var i int
+	var i32 int32
+	println(i == i32)*/
 }
